@@ -1,0 +1,55 @@
+@font-face {
+    font-family: Norse;
+    src: url('Norse-Bold.otf') format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.Section1 p {
+  margin: 0;
+  padding: 0;
+  font-size: 1rem;
+  font-weight: 700;
+  margin: 1rem 20vw 1rem 2rem;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.Section1 p:nth-child(2) {
+    margin-bottom: 3rem;
+}
+
+body {
+    display:flex;
+    overflow: hidden;
+}
+
+img {
+    width:40vw;
+    height:100vh;
+    display: block;
+}
+
+.Main {
+    width: 60vw;
+    height:100vh;
+}
+
+.Section1 {
+    display: flex;
+    background-color: #F9FAFB;
+    height: 35vh;
+    justify-content: end;
+    flex-direction: column;
+
+}
+    
+
+.Section2 {
+    background-color: rgb(255, 255, 255);
+    height: 30vh;
+   
+}
+
+span {
+    font-style: italic;
+}
