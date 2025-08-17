@@ -56,6 +56,7 @@ img + div {
   font-weight: 700;
   margin: 0.2rem 2rem 1rem 2rem;
   font-family: 'Times New Roman', Times, serif;
+  font-size: 1.2rem;
   width: 43vw;
   
 }
@@ -67,6 +68,8 @@ img + div {
 .Section2 {
     background-color: rgb(255, 255, 255);
     height: 30vh;
+    border-bottom: 1px black transparent;
+    box-shadow: 0 10px 10px rgba(0,0,0,.1);
 }
 
 .Section2 > div:nth-child(1) {
@@ -77,6 +80,8 @@ img + div {
     font-weight: 600;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
+
 
 .Form {
     display: flex;
@@ -95,6 +100,25 @@ label {
     gap:0.1rem;
 }
 
+button {
+    color: white;
+    background-color: #596D48;
+    width: 10rem;
+    height: 2rem;
+    border: none;
+    border-radius: 4px 4px 4px 4px;
+    margin-top: 1.5rem;
+    margin-left: 2.5rem;
+    box-shadow: 3px 3px 15px -2px rgba(0,0,0,0.5);
+}
+
+button + p {
+    font-size: 0.9rem;
+    margin-left: 2.5rem;
+    margin-top: 1.2rem;
+
+}
+
 input {
     border: 1px solid #E5E7EB;
     border-radius: 2px 2px 2px 2px; 
@@ -102,6 +126,7 @@ input {
 
 input:hover {
     border: 1px solid black;
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0,.1);
 }
 
 [type="password"] {
@@ -125,10 +150,6 @@ img {
     width: 60vw;
     height:100vh;
 }
-
-
-    
-
 
 
 span {
